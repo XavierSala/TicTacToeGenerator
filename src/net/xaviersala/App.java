@@ -7,7 +7,7 @@ public class App {
 	public static void main(String[] args) {
 		TicTacToe toe = new TicTacToe();
 		
-		String[][] tauler = toe.generar();
+		String[][] tauler = toe.generar(4,4);
 		
 		// System.out.println(Arrays.deepToString(tauler));
 		
